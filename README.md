@@ -1,14 +1,14 @@
+
+# ONLINE ELECTION SYSTEM
+
 Secure Voting is a complete solution for the online election system. The electronic voting system is 100% web based, easy to use, most convenient, user friendly, and integrated with ultimate security features. My Internet voting system is a flexible, feature-rich election service ideal for all types of organizations large and small.
 
-Problem Statement :
 
+## Problem Statement 
 ●Voting at home would mean Elections could not ensure voters were able to vote in private and free of intimidation.
 
 ●While some experts say we have the technology to make it secure, there have been instances of security breaches in online voting systems. If a security breach did occur it could mean an entire election result would be thrown out.
-
-
-Algorithm :
-
+## Algorithm 
 A] Face Dataset
 
 1.Import packages
@@ -48,3 +48,5 @@ C] Face Recognition
 6.Generate score and check criteria reaches.
 
 7.Release camera permissions .
+
+

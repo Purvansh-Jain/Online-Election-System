@@ -1,7 +1,7 @@
 ##import numpy as np
 import cv2
 
-face_cascade = cv2.CascadeClassifier('C:/Users/Larshith/Desktop/real-time-face-recognition/real-time-face-recognition/cascad/data/haarcascade_frontalface_alt2.xml')
+face_cascade = cv2.CascadeClassifier('C:/Users/Purvansh/Desktop/real-time-face-recognition/real-time-face-recognition/cascad/data/haarcascade_frontalface_alt2.xml')
 cap = cv2.VideoCapture(0)
 
 while(True):

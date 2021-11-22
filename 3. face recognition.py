@@ -5,8 +5,8 @@ import numpy as np
 import os 
 
 recognizer = cv2.face.LBPHFaceRecognizer_create()
-recognizer.read('C:/Users/talar/Desktop/python/Jain-Mini-Project/trainer.yml')   #load trained model
-cascadePath = "C:/Users/talar/Desktop/python/Jain-Mini-Project/cascad/data/haarcascade_frontalface_default.xml"
+recognizer.read('C:/Users/Purvansh/Desktop/python/Jain-Project/trainer.yml')   #load trained model
+cascadePath = "C:/Users/Purvansh/Desktop/python/Jain-Project/cascad/data/haarcascade_frontalface_default.xml"
 faceCascade = cv2.CascadeClassifier(cascadePath)
 
 font = cv2.FONT_HERSHEY_SIMPLEX
@@ -14,7 +14,7 @@ font = cv2.FONT_HERSHEY_SIMPLEX
 id = 3 #two persons (e.g. Jacob, Jack)
 
 
-names = ['larshith']  #key in names, start from the second place, leave first empty
+names = ['Purvansh']  #key in names, start from the second place, leave first empty
 
 cam = cv2.VideoCapture(0)
 cam.set(3, 640) # set video widht

@@ -8,7 +8,7 @@ cam.set(3, 640) # set video width
 cam.set(4, 480) # set video height
 
 
-face_detector = cv2.CascadeClassifier('C:/Users/talar/Desktop/python/Jain-Mini-Project/cascad/data/haarcascade_frontalface_default.xml')
+face_detector = cv2.CascadeClassifier('C:/Users/Purvansh/Desktop/python/Jain-Project/cascad/data/haarcascade_frontalface_default.xml')
 
 
 face_id = input('\n enter user id end press <return> ==>  ')
@@ -28,7 +28,7 @@ while(True):
         count += 1
 
         # Save the captured image into the datasets folder
-        cv2.imwrite("C:/Users/talar/Desktop/python/Jain-Mini-Project/dataset/User." + str(face_id) + '.' + str(count) + ".jpg", gray[y:y+h,x:x+w])
+        cv2.imwrite("C:/Users/Purvansh/Desktop/python/Jain-Project/dataset/User." + str(face_id) + '.' + str(count) + ".jpg", gray[y:y+h,x:x+w])
 
         cv2.imshow('image', img)
 

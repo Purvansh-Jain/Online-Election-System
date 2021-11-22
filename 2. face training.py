@@ -5,10 +5,10 @@ import numpy as np
 from PIL import Image  # pillow package
 import os
 
-path ='C:/Users/talar/Desktop/python/Jain-Mini-Project/dataset'
+path ='C:/Users/Purvansh/Desktop/python/Jain-Project/dataset'
 
 recognizer = cv2.face.LBPHFaceRecognizer_create()
-detector = cv2.CascadeClassifier("C:/Users/talar/Desktop/python/Jain-Mini-Project/cascad/data/haarcascade_frontalface_default.xml");
+detector = cv2.CascadeClassifier("C:/Users/Purvansh/Desktop/python/Jain-Project/cascad/data/haarcascade_frontalface_default.xml");
 
 
 def getImagesAndLabels(path):
@@ -35,6 +35,6 @@ print("\n [INFO] Training faces. It will take a few seconds. Wait ...")
 faces, ids = getImagesAndLabels(path)
 recognizer.train(faces, np.array(ids))
 
-recognizer.write('C:/Users/talar/Desktop/python/Jain-Mini-Project/trainer.yml')  # recognizer.save() worked on Mac, but not on Pi
+recognizer.write('C:/Users/Purvansh/Desktop/python/Jain-Project/trainer.yml')  # recognizer.save() worked on Mac, but not on Pi
 
 print("\n [INFO] {0} faces trained. Exiting Program".format(len(np.unique(ids))))
